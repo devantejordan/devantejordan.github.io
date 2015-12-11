@@ -1,0 +1,101 @@
+/**********************************
+GENERAL
+***********************************/
+
+/**********************************
+NAVIGATION 
+***********************************/
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+.portrait{
+    max-width:auto;
+    max-height:250px;
+}
+
+.jumbotron{
+    text-align:center;
+    margin-bottom:10px;
+    height:600px;
+    padding-top:50px;
+}
+
+.portrait_name{
+    width:290px;
+    margin:0 auto;
+    padding:20px;
+    border-radius:20px;
+}
+
+/**********************************
+MAIN CONTENT
+***********************************/
+
+
+.thumbnail_image{
+  max-height:200px;
+  max-width:242px;
+}
+
+article{
+    width:90%;
+    margin:0 auto;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+/**********************************
+FOOTER - Layout and Sizing
+***********************************/
+footer{
+    height:100px;
+    text-align:center;
+    padding:20px;
+}
+
+/**********************************
+PAGE: _______
+***********************************/
+
+
+
+/**********************************
+FONTS
+***********************************/
+.portrait_name{
+    font-family: impa;
+}
+
+/**********************************
+COLORS and BACKGROUNDS
+Color 1: #eee
+Color 1:
+Color 1:
+Color 1:
+Color 1:
+***********************************/
+
+article{
+    background:#00345E;
+    color:white;
+    font:impact, italic;
+}
+
+footer{
+    background:#00345E;
+    color:white;
+}
+
+.jumbotron{
+  background: url('http://www.corbisimages.com/images/Corbis-42-15688576.jpg?size=67&uid=a6bc2154-4c08-4aa4-b3a4-c40112258e4c') no-repeat center;
+  background-size: cover;
+}
+
+.portrait_name{
+    background: rgba(230, 230, 230, 0.7);
+}
