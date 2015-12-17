@@ -11,7 +11,13 @@ NAVIGATION
 /**********************************
 HEADER
 ***********************************/
+.navbar-brand{
+    width:50px;
+    height:50px;
 
+}
+
+}
 .portrait{
     max-width:auto;
     max-height:250px;
@@ -19,9 +25,9 @@ HEADER
 
 .jumbotron{
     text-align:center;
-    margin-bottom:10px;
-    height:600px;
-    padding-top:50px;
+    margin-bottom:100px;
+    height:470px;
+    padding-top:100px;
 }
 
 .portrait_name{
@@ -34,11 +40,13 @@ HEADER
 /**********************************
 MAIN CONTENT
 ***********************************/
-
+body{
+background-color:gray;
+}
 
 .thumbnail_image{
   max-height:200px;
-  max-width:242px;
+  max-width:300px;
 }
 
 article{
@@ -47,6 +55,9 @@ article{
     padding:10px;
     border-radius:10px;
     margin-bottom:10px;
+}
+li{
+    height:50px;
 }
 
 /**********************************
@@ -68,7 +79,8 @@ PAGE: _______
 FONTS
 ***********************************/
 .portrait_name{
-    font-family: impa;
+    font-family: times;
+    font
 }
 
 /**********************************
@@ -89,10 +101,12 @@ article{
 footer{
     background:#00345E;
     color:white;
+    height:50px;
+    font:10px times;
 }
 
 .jumbotron{
-  background: url('http://www.corbisimages.com/images/Corbis-42-15688576.jpg?size=67&uid=a6bc2154-4c08-4aa4-b3a4-c40112258e4c') no-repeat center;
+  background: url('http://www.imagesource.com/Doc/IS0/Media/TR5/6/3/b/0/IS09AQ0SP.jpg') no-repeat center;
   background-size: cover;
 }
 
