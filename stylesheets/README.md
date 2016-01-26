@@ -7,3 +7,5 @@ Take picture of feather
 change font
 change self picture
 take sasuke picture landscape
+Add links to header
+Add facebook logo
