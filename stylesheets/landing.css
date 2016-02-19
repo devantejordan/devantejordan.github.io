@@ -16,32 +16,37 @@ HEADER
     height:50px;
 
 }
-
+.navbar-header{
+    background-color:#1f0036;
 }
+
 .portrait{
     max-width:auto;
-    max-height:250px;
+    max-height:auto;
 }
 
 .jumbotron{
     text-align:center;
     margin-bottom:100px;
-    height:470px;
-    padding-top:100px;
+    background: url("http://www.justinmaller.com/img/thumbnail/THUMBX_Echoes_kmm1.jpg");
+    font-family: 'Kelly Slab', cursive;
 }
 
 .portrait_name{
-    width:290px;
+    width:250px;
     margin:0 auto;
     padding:20px;
     border-radius:20px;
+    font-family: 'Kelly Slab', cursive;
 }
 
 /**********************************
 MAIN CONTENT
 ***********************************/
 body{
-background-color:gray;
+background: #0B0719;
+background-size:cover;
+
 }
 
 .thumbnail_image{
@@ -55,19 +60,20 @@ article{
     padding:10px;
     border-radius:10px;
     margin-bottom:10px;
+    text-align:center;
+    
 }
 li{
     height:50px;
 }
-
+h2{
+    text-align:center;
+    
+}
 /**********************************
 FOOTER - Layout and Sizing
 ***********************************/
-footer{
-    height:100px;
-    text-align:center;
-    padding:20px;
-}
+
 
 /**********************************
 PAGE: _______
@@ -79,8 +85,7 @@ PAGE: _______
 FONTS
 ***********************************/
 .portrait_name{
-    font-family: times;
-    font
+    font-family:times;
 }
 
 /**********************************
@@ -93,20 +98,23 @@ Color 1:
 ***********************************/
 
 article{
-    background:#00345E;
-    color:white;
-    font:impact, italic;
+    background:transparent ;
+    color:#B40431;
+    font:impact, italic ;
+    
 }
 
 footer{
-    background:#00345E;
-    color:white;
+    background:transparent;
     height:50px;
-    font:10px times;
+    font:15px times;
+    text-align:center;
+    color: #FFFFFF;
+    
 }
 
 .jumbotron{
-  background: url('http://www.imagesource.com/Doc/IS0/Media/TR5/6/3/b/0/IS09AQ0SP.jpg') no-repeat center;
+  background: url('http://www.justinmaller.com/img/thumbnail/THUMB_Meta_pqqe.jpg') no-repeat center;
   background-size: cover;
 }
 

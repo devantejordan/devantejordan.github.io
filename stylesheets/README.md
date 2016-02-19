@@ -9,3 +9,9 @@ change self picture
 take sasuke picture landscape
 Add links to header
 Add facebook logo
+ < nav class="navbar navbar-default">
+  < div class="container-fluid">
+    < div class= "navbar-header">
+    < a class="navbar-brand" href="#">
+    < /div>
+   < /div>
